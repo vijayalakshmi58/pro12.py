@@ -1,12 +1,12 @@
 # pro12.py
-vg1=int(input())
-temp=vg1
-revn1=0
-while(vg1>0):
-    d=vg1%10
-    revn1=revn1*10+d
-    vg1=vg1//10
-if(temp==revn1):
+cccd=int(input())
+temp=cccd
+revn=0
+while(cccd>0):
+    d=cccd%10
+    revn=revn*10+d
+    cccd=cccd//10
+if(temp==revn):
     print("yes")
 else:
     print("no")
